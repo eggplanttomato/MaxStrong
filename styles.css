@@ -1,0 +1,559 @@
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('https://assets.codepen.io/6060109/Hellix-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: Hellix;
+  font-weight: 500;
+  color: #111235;
+  text-align: center;
+  background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+}
+
+.constrain {
+  max-width: 767px;
+  margin:auto;
+}
+
+.contentContainer {
+  margin: 40px 0 120px 0;
+}
+
+h1 {
+  width: 80%;
+  line-height: 75px;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 10px auto;
+}
+
+h4 {
+  fontsize: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+span {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #111235;
+}
+
+.col p {
+  width: 77%;
+}
+
+ul {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.workoutImg {
+  background: url("https://assets.codepen.io/6060109/workout-vector-1.png");
+  height: 414px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.workoutImg2 {
+  background: url("https://assets.codepen.io/6060109/workout-vector-2.png");
+  height: 276.24px;
+  width: 100%;
+  margin: 0 10px 29.76px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.workoutImg3 {
+  background: url("https://assets.codepen.io/6060109/trainer.png");
+  background-size: contain;
+  background-position: bottom;
+  height: 638px;
+  background-position: 50% 100%;
+}
+
+.workoutImg4 {
+  background: url("https://assets.codepen.io/6060109/workout-vector-3.png");
+  height: 414px;
+  background-size: cover;
+  background-position: center;
+}
+
+.noRepeat {
+  background-repeat: no-repeat;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #4B5092 !important;
+  margin-top: 30px;
+}
+
+.btn-light {
+  background-color: white !important;
+  color: #436BAA !important;
+}
+
+.blueBg {
+  background-color: #F2F8FF;
+  text-align: left;
+  padding: 50px 16px;
+  border-radius: 0;
+}
+
+.blueBg h2 {
+  padding-right: 60px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 75px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.04), 0 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.arnoldContainer {
+  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+  padding-top: 80px;
+}
+
+.arnoldContainer h5 {
+  margin-bottom: 30px;
+}
+
+.arnoldContainer p {
+  width: 85%;
+}
+
+.benefitContainer {
+  text-align: left;
+  margin-bottom: 86px;
+}
+
+.benefitContainer h2 {
+  margin: 50px 16px 40px;
+}
+
+.box {
+  background: #E4F0FF;
+  border-radius: 30px;
+  padding: 50px 54px 50px 40px;
+  margin: 0 16px 20px 16px;
+}
+
+.box h4 {
+  width: 65%;
+  line-height: 29px;
+  margin: 0 0 20px 0;
+}
+
+.benefit4 h4 {
+  width: 45%;
+}
+
+.greyBox {
+  background: rgba(114, 122, 239, 0.1);
+}
+
+.btn-dark {
+  margin-top: 40px;
+}
+
+#emailField {
+  padding: 13px;
+  width: 255px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Hellix;
+  background-image: url("https://assets.codepen.io/6060109/icon-send.png");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  outline: 0;
+  border: none;
+}
+
+#emailField::placeholder {
+  color: #111235;
+}
+
+.aboutUs {
+  border-top: 1px solid grey;
+}
+
+.aboutUs h3 {
+  margin-top: 34px;
+  padding-bottom: 0;
+}
+
+.signUp h5 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.aboutUs li {
+  margin: 50px 0;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin: 24px auto 60px auto;
+}
+
+.icon-halo {
+  background-color: rgba(128, 173, 245, .2);
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}
+
+.navbar-nav {
+  display: none;
+}
+
+/* large devices (landscape tablets, 900px and up) */
+@media only screen and (min-width: 900px) {
+  .constrain {
+    max-width: 1500px;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 72px;
+    width: 95%;
+    padding: 0;
+  }
+
+  .col p {
+    width: 100%;
+    padding-right: 25%;
+  }
+
+  .blueBg {
+    width: 43%;
+    border-radius: 50px;
+    margin: 0 3% 0 0;
+    padding: 50px 0 70px 4%;
+  }
+
+  .blueBg h2 {
+    width: 90%;
+  }
+
+  .blueBg p {
+    padding-right: 10%;
+  }
+
+  .arnoldContainer {
+    padding-top: 0;
+    padding-left: 8%;
+  }
+
+  .arnoldContainer h2 {
+    padding-bottom: 10px;
+  }
+
+  .arnoldContainer p {
+    width: 100%;
+    padding-right: 35%;
+  }
+
+  .topContainer {
+    margin: 0 10%;
+  }
+
+  .contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 100%;
+  }
+
+  .chooseContainer {
+    flex-direction: row;
+    margin-bottom: 40px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    padding: 0 30px;
+  }
+
+  .benefitContainer h2 {
+    margin: 0 0 30px 0;
+  }
+
+  .navbar h3 {
+    margin: 0;
+  }
+
+  .logo {
+    text-align: left;
+    box-shadow: none;
+  }
+
+  .workoutImg {
+    height: 600px;
+    margin: 0;
+  }
+
+  .workoutImg2 {
+    height: 383px;
+    width: 574px;
+  }
+
+  .workoutImg3 {
+    height: 600px;
+    background-position: center bottom;
+  }
+
+  .get-now-btn {
+    margin-top: 0;
+  }
+
+  .benefitGrid {
+    display: grid;
+    column-gap: 0.5rem;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-col-span-2 {
+    grid-column: span 2;
+  }
+
+  .panel:first-child {
+    grid-column-start: 3;
+    grid-row: 2 / 4;
+  }
+
+  .panel:nth-child(2) {
+    align-self: center;
+  }
+
+  .panel:nth-child(7) {
+    grid-column-start: 3;
+    grid-row: 1;
+    align-self: start;
+  }
+
+  .box {
+    height: 100%;
+    padding: 4rem 3rem;
+    margin: 0;
+  }
+
+  .box h4 {
+    width: 70%;
+  }
+
+  .benefit4 h4 {
+    width: 60%;
+  }
+
+  .energy h4 {
+    width: 100%;
+  }
+
+  .aboutUsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .usPanel:first-child{
+    align-self: start;
+  }
+
+  .usPanel:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .usPanel:nth-child(3) {
+    justify-self: end;
+    align-self: center;
+
+  }
+
+  .usPanel ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 150px;
+    justify-content: end;
+  }
+
+
+  .usPanel li {
+    margin: 25px 0 0 0;
+    padding: 0;
+  }
+}
